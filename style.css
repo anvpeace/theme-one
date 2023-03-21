@@ -1,0 +1,50 @@
+#contact-content{
+    background-color: #7D84B2;
+    display: flex;
+}
+#main{
+    background-color: #8E9DCC;
+    height: 550px;
+    display: flex;
+}
+
+.welcome-content{
+    margin-top: 175px;
+    margin-left: 105px;
+}
+
+.welcome-display-text{
+    display: block;
+}
+
+#display-image{
+    position: relative;
+    top: 60px;
+    left: 10px;
+    margin-left: 50px;
+    width: 550px;
+    height: 450px;
+}
+
+#welcome-header{
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
+    color: white;
+}
+
+#welcome-paragraph{
+    width: 664px;
+    padding: 4px;
+}
+/* .header-contact-container{
+    display: block;
+}
+
+.header-icon-container{
+    margin-left: 20px;
+}
+
+#twitter-icon{
+    width: 35px;
+    height: 35px;
+} */
