@@ -1,7 +1,76 @@
-#contact-content{
+#contact-icon-content{
     background-color: #7D84B2;
     display: flex;
+    padding: 5px;
 }
+
+#twitter-icon, #fb-icon, #insta-icon, #linkdn-icon{
+    width: 42px;
+    height: 42px;
+    margin-right: 5px;
+}
+
+.left-header{
+    display: flex;
+    position: relative;
+    top: 8px;
+    left: 20px;
+    font-weight: 400;
+}
+
+#email, #number{
+    font-size: 18px;
+    margin-right: 15px;
+    margin-top: 4px;
+    color: #2D324D;
+    font-weight: bold;
+}
+
+#email-icon{
+    width:35px;
+    height: 39px;
+    margin-right: 8px;
+    /* margin-top: 3px; */
+}
+
+#phone-icon{
+    width:35px;
+    height: 30px;
+    margin-top: 3px;
+    margin-right: 10px;
+
+}
+
+
+
+.right-header{
+    position: relative;
+    top: 2px;
+    left: 130px;
+}
+
+
+/* ```````````````````````````````````````````````````````````` */
+/* ````````````````````````````NAV AREA / BAR  */
+
+.navbar{
+    position: absolute;
+    margin-left: 751px;
+    top: 0;
+    background-color: #7D84B2;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* `````````````````````````````````````````````````````````` */
 #main{
     background-color: #8E9DCC;
     height: 550px;
@@ -9,7 +78,7 @@
 }
 
 .welcome-content{
-    margin-top: 175px;
+    margin-top: 75px;
     margin-left: 105px;
 }
 
@@ -19,11 +88,11 @@
 
 #display-image{
     position: relative;
-    top: 60px;
+    top: 0px;
     left: 10px;
     margin-left: 50px;
-    width: 550px;
-    height: 450px;
+    width: 500px;
+    height: 400px;
 }
 
 #welcome-header{
@@ -35,16 +104,32 @@
 #welcome-paragraph{
     width: 664px;
     padding: 4px;
-}
-/* .header-contact-container{
-    display: block;
-}
-
-.header-icon-container{
-    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: ghostwhite;
 }
 
-#twitter-icon{
-    width: 35px;
+.button-display{
+    display: flex;
+    /* margin-left: 50px; */
+
+}
+
+#get-started-button, #watch-button{
+    width: 175px;
+    height: 55px;
+    margin-right: 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: #9CAAD3;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#youtube-icon{
     height: 35px;
-} */
+    width: 45px;
+    margin-right: 5px;
+}
+
+
+
