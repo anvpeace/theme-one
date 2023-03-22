@@ -2,7 +2,7 @@
 let startButton = document.querySelector("#get-started-button");
 
 startButton.addEventListener("click", function(){
-    window.location.href = "assets/services.html";
+    window.location.href = "signup.html";
 });
 
 let youtubeButton = document.querySelector("#watch-button");

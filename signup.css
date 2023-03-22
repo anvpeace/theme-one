@@ -1,0 +1,42 @@
+
+
+.signup-content{
+    display: flex;
+    margin-left: 145px;
+
+}
+
+#small-img{
+    position: relative;
+    margin-top: 60px;
+    width: 500px;
+    height: 600px;
+    /* border-radius: 30px; */
+}
+
+#signup-header{
+    color: aliceblue;
+    position: absolute;
+    top: 180px;
+    left: 385px;
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
+}
+
+#signup-text{
+    position: absolute;
+    top: 430px;
+    left: 480px;
+    color: aliceblue;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.signup-elements{
+    margin-top: 60px;
+    background-color: rgb(248, 245, 241); width: 500px;
+}
+.email-input{
+    margin-top: 30px;
+    margin-left: 40px;
+}
