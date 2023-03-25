@@ -14,29 +14,113 @@
     /* border-radius: 30px; */
 }
 
+#logo, #logo-name{
+    position: absolute;
+    color: white;
+    font-weight: 500;
+}
+
+#logo{
+    top: 82px;
+    left: 295px;
+}
+#logo-name{
+    top: 94px;
+    left: 355px;  
+}
 #signup-header{
     color: aliceblue;
     position: absolute;
-    top: 180px;
-    left: 385px;
+    top: 258px;
+    left: 327px;
     font-family: 'Lobster', cursive;
-    font-size: 75px;
+    font-size: 100px;
 }
 
 #signup-text{
     position: absolute;
-    top: 430px;
+    top: 450px;
     left: 480px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
     color: aliceblue;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .signup-elements{
+    display: block;
     margin-top: 60px;
     background-color: rgb(248, 245, 241); width: 500px;
 }
-.email-input{
-    margin-top: 30px;
-    margin-left: 40px;
+
+#right-side-signup{
+    position: relative;
+    left: 83px;
+    top: 55px;
+    font-family: 'Poppins', sans-serif;
+    color: #0C7C59;
+    font-weight: 700;
+
 }
+.email-input{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 75px;
+    /* width: 150px; */
+}
+
+input{
+    width: 350px;
+    border: none;
+}
+
+::placeholder{
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 3px solid #0C7C59;
+}
+
+#continue-button{
+    width: 350px;
+    height: 35px;
+    background-image: linear-gradient(to right, rgb(18, 150, 6) , rgb(50, 197, 13));
+    border: none;
+}
+
+#socialmed-login{
+    position: absolute;
+    top: 420px;
+    margin-left: 69px;
+
+}
+
+.sociallog-input{
+    display: block;
+    margin-left: 65px;
+}
+
+#instalog-button{
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 350px;
+    height: 35px;
+    background-image: linear-gradient(to right, rgb(244, 46, 171) , rgba(59, 76, 208, 0.766));
+    border: none;
+}
+
+#gitlog-button{
+    width: 350px;
+    margin-top: 15px;
+    height: 35px;
+    margin-left: 10px;
+    background-image: linear-gradient(to right, rgb(39, 9, 121) , rgba(141, 142, 145, 0.888));
+    border: none;
+}
+
+button{
+    color: aliceblue;
+}
+/* .span-label{
+    margin-right: 12px
+} */

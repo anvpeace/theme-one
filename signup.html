@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Poppins&display=swap" rel="stylesheet">  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="signup.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="signup.css"> 
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body style="background-color: #0C7C59;">
@@ -17,12 +17,45 @@
             <div>
                 <img id="small-img" src="images/small-bg.jpg">
                 <h1 id="signup-header">Company</h1>
-                <p id="signup-text">Sign up to get started</p>
+                <p id="signup-text"> Lorem ipsum<br>
+                    dolor sit amet</p>
+                    <img id="logo" src="images/green-power.png" style="height: 50px; width: 50px">
+                    <p id="logo-name">Brand</p>
             </div>
             <div class="signup-elements">
-                <div class="email-input">
-                    <h3>email</h3><span><input></span>
+
+                <h3 id="right-side-signup">Sign up</h3>
+
+                <div style="margin-top: 85px;">
+                    <div class="email-input">
+                        <span><input placeholder="First Name"></span>
+                    </div>
+                    <div class="email-input">
+                        <span><input placeholder="Last Name"></span>
+                    </div>
+                    <div class="email-input">
+                        <span><input placeholder="Email address"></span>
+                    </div>
+    
+                    <div class="email-input">
+                        <span><button id="continue-button">Continue</button></span>
+                    </div>
+    
+                    <div class="email-input">
+                        <span id="socialmed-login"><p>Or connect with Social Media</p></span>
+                    </div>
+    
+                    <div class="sociallog-input">
+                        <span><button id="instalog-button"><a><img src="images/instagram (1).png" style="width: 25px; height: 25px;">Instagram</a></button></span>
+                        <!-- <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Grow studio - Flaticon</a> -->
+                        <div>
+                            <span><button id="gitlog-button"> <img src="images/github.png" style="width: 25px; height: 25px;"> Github</button></span>
+                            <!-- <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a> -->
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
 
         </div>
